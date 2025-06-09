@@ -1,0 +1,58 @@
+# === Node ===
+node_modules/
+pnpm-lock.yaml
+
+# === Build Output ===
+dist/
+build/
+out/
+
+# === Logs ===
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# === VS Code ===
+.vscode/
+*.code-workspace
+
+# === System Files ===
+.DS_Store
+Thumbs.db
+
+# === Environment Variables ===
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# === TypeScript ===
+*.tsbuildinfo
+
+# === Webpack Cache ===
+.cache/
+webpack.cache/
+
+# === Coverage ===
+coverage/
+
+# === Test Files ===
+jest-test-results.json
+*.log
+
+# === IDE ===
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# === Mac/Linux Trash ===
+.Trash-*
+
+# === Misc ===
+*.tgz
+*.bak
+*.tmp
